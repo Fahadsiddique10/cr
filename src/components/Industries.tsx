@@ -3,6 +3,7 @@ import IndusMain from "./IndusMain";
 import Button from "./button";
 
 function  Industries() {
+  
  const submit = () => {
   
  }

@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import Award from './components/Award';
 import About from './components/About';
 import Industries from './components/Industries';
+import Slider from './components/Slider';
 // import Award_card from './components/Award_card';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Counter/>
       <About/>
       <Industries />
+      <Slider/>
 
     </>
   )

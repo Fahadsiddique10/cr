@@ -129,6 +129,12 @@ section.main-award.container ul {
   background: #1D1D1D;
   padding: 40px 30px 100px 30px;
   border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+.main-back:hover {
+  border: 1px solid #aeaeae;  
+  background-color: black;
 }
 
 .main-back .para {
@@ -222,7 +228,7 @@ section.Indues ul {
   padding: 0 0 3% 0;
 }
 .Indus {
-  width: 29%;
+  width: 28%;
 }
 section.Indues {
   background: #1D1D1D;
@@ -231,6 +237,7 @@ section.Indues {
   background: #101010;
   border-radius: 12px;
   padding: 30px 30px 70px 21px;
+  border: 1px solid transparent;
 }
 section.Indues {
   background: #1D1D1D;
@@ -239,4 +246,15 @@ section.Indues {
 section.Indues button {
   display: block;
   margin: auto;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+button:hover {
+  background: linear-gradient(135.45deg, #D7392F 18.79%, #F57F3D 73%);
+}
+.Indus:hover {
+    background: rgb(58 58 58/ var(--tw-bg-opacity));
+    border: 1px solid #aeaeae;
 }

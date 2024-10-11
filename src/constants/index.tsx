@@ -125,3 +125,17 @@ export const Excel = [
 
   },
 ]
+
+export const slidesData = [
+  {
+    title: "Intelligence for Powerful Solutions",
+    description: "We believe in surpassing expectations and satisfying our clientele to form lasting alliances...",
+    image: "/path/to/image1.png"
+  },
+  {
+    title: "Creative Solutions with Technical Expertise",
+    description: "We fuse creativity with technical expertise to foster impactful results...",
+    image: "/path/to/image2.png"
+  },
+  // Add more slides here
+];
