@@ -40,7 +40,7 @@ header ul li {
 }
 
 header button,
-.main-award.container button {
+.main-award button,section.About button, section.Indues button {
   background: linear-gradient(135.45deg, #F57F3D 18.79%, #D7392F 73%);
   color: white;
   padding: 15px 30px;
@@ -98,8 +98,16 @@ section.main-award.container ul {
   gap: 10px;
   align-items: unset;
 }
-
-.main-back h2 {
+.Indus .para {
+  padding-top: 20px;
+  max-width: 733px;
+  text-align: left;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.main-back h2,.Indus h2 {
   color: white;
   font-family: Raleway;
   font-size: 22px;
@@ -186,4 +194,49 @@ padding: 2% 0;
   border-radius:15px;
   object-fit:cover;
   height:100%
+}
+.recall-right .para{
+  text-align: left;
+  padding-bottom: 20px;
+}
+section.About {
+  padding: 4% 0;
+}
+.top-cont .para {
+  max-width: 970px;
+  margin: auto;
+}
+.top-cont {
+  padding-bottom: 3%;
+}
+section.Indues ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+section.Indues ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 0 3% 0;
+}
+.Indus {
+  width: 29%;
+}
+section.Indues {
+  background: #1D1D1D;
+}
+.Indus {
+  background: #101010;
+  border-radius: 12px;
+  padding: 30px 30px 70px 21px;
+}
+section.Indues {
+  background: #1D1D1D;
+  padding: 5% 0% 2% 0%;
+}
+section.Indues button {
+  display: block;
+  margin: auto;
 }
