@@ -1,3 +1,5 @@
+import assests from "../assets/zexal.png"
+
 export const Card = [
   {
 
@@ -126,16 +128,204 @@ export const Excel = [
   },
 ]
 
-export const slidesData = [
+
+
+export const StudySlider = [
   {
-    title: "Intelligence for Powerful Solutions",
-    description: "We believe in surpassing expectations and satisfying our clientele to form lasting alliances...",
-    image: "/path/to/image1.png"
+
+    image: assests,
+    title: "Zexal",
+    description:
+      "Zexal is an innovative transportation app designed to transform your travel experience. With its sleek design and user-friendly features, Zexal allows users to book rides, monitor drivers in real-time, and enjoy reliable, comfortable journeys. Whether it's a quick commute..."
+    ,
+
   },
   {
-    title: "Creative Solutions with Technical Expertise",
-    description: "We fuse creativity with technical expertise to foster impactful results...",
-    image: "/path/to/image2.png"
+
+    image: assests,
+    title: "Zexal",
+    description:
+      "Zexal is an innovative transportation app designed to transform your travel experience. With its sleek design and user-friendly features, Zexal allows users to book rides, monitor drivers in real-time, and enjoy reliable, comfortable journeys. Whether it's a quick commute...",
+
+
   },
-  // Add more slides here
-];
+  {
+
+    image: assests,
+    title: "Zexal",
+    description:
+      "Zexal is an innovative transportation app designed to transform your travel experience. With its sleek design and user-friendly features, Zexal allows users to book rides, monitor drivers in real-time, and enjoy reliable, comfortable journeys. Whether it's a quick commute... ",
+
+
+  },
+  {
+
+    image: assests,
+    title: "Zexal",
+    description:
+      "Zexal is an innovative transportation app designed to transform your travel experience. With its sleek design and user-friendly features, Zexal allows users to book rides, monitor drivers in real-time, and enjoy reliable, comfortable journeys. Whether it's a quick commute...",
+
+
+  },
+]
+
+
+export const Testislider = [
+  {
+
+    icon: "/concept.svg",
+    title: "Matt Ruff - Lokl Market",
+    description:
+      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day.",
+      image:"/stars.svg",
+      Rating:"4.5 Rating",
+  },
+  {
+
+    icon: "/slidemid.svg",
+    title: "Rick Katz - Co Founder LTD",
+    description:
+      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
+    image:"/stars.svg",
+    Rating:"5.5 Rating",
+
+  },
+  {
+
+    icon: "/slideleft.svg",
+    title: "Nusrat Jahan - Us Technomatrix",
+    description:
+      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a....see more",
+      image:"/stars.svg",
+      Rating:"4.5 Rating",
+
+  },
+  {
+
+    icon: "/concept.svg",
+    title: "DaMatt Ruff - Lokl Market",
+    description:
+      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day. ",
+    image:"/stars.svg",
+    Rating:"5.5 Rating",
+
+  },
+  {
+
+    icon: "/slideleft.svg",
+    title: "Nusrat Jahan - Us Technomatrix",
+    description:
+      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a ....see more",
+      image:"/stars.svg",
+      Rating:"4.5 Rating",
+
+  },
+  {
+
+    icon: "/slidemid.svg",
+    title: "Rick Katz - Co Founder LTD",
+    description:
+      "One of the best freelancers on Upwork. Great communication, excellent attention to detail and highly skilled. Would definitely hire Faheem again without question.",
+    image:"/stars.svg",
+    Rating:"5.5 Rating",
+  },
+  {
+
+    icon: "/concept.svg",
+    title: "Matt Ruff - Lokl Market",
+    description:
+      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day.",
+      image:"/stars.svg",
+      Rating:"4.5 Rating",
+  },
+  {
+
+    icon: "/slidemid.svg",
+    title: "Rick Katz - Co Founder LTD",
+    description:
+      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
+    image:"/stars.svg",
+    Rating:"5.5 Rating",
+
+  },
+  {
+
+    icon: "/slideleft.svg",
+    title: "Nusrat Jahan - Us Technomatrix",
+    description:
+      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a....see more",
+      image:"/stars.svg",
+      Rating:"4.5 Rating",
+
+  },
+ 
+]
+
+export const LetterBox = [
+  {
+
+    image: "/search.png",
+    title: "Search Engine Optimization (SEO)",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took "
+    ,
+
+  },
+  {
+
+    image: "/marketing.png",
+    title: "Digital Marketing",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ",
+
+
+  },
+  {
+
+    image: "/mobile.png",
+    title: "Mobile Application",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  ",
+
+
+  },
+]
+
+export const keyslider= [
+  {
+
+    image: "/1.svg",
+
+  },
+  {
+
+    image: "/2.svg",
+
+  },
+  {
+
+    image: "/3.svg",
+
+  },
+  {
+
+    image: "/4.svg",
+
+  },
+  {
+
+    image: "/5.svg",
+
+  },
+  {
+
+    image: "/6.svg",
+
+  },
+  {
+
+    image: "/7.svg",
+
+  },
+  
+]

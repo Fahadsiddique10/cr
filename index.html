@@ -19,5 +19,21 @@
     <script>
       var swiper = new Swiper(".mySwiper", {});
     </script>
+    <script>
+      $('.logo-carousel').slick({
+          infinite: true,  // Use 'infinite' instead of 'loop'
+          autoplaySpeed: 0,
+          speed: 8000,
+          pauseOnHover: false,
+          cssEase: 'linear',
+          slidesToScroll: 1,
+          slidesToShow: 6,
+          variableWidth: false,
+          dots: false,
+          arrows: true,
+          autoplay: true,
+          focusOnSelect: false,
+      });
+  </script>
   </body>
 </html>

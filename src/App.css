@@ -40,7 +40,10 @@ header ul li {
 }
 
 header button,
-.main-award button,section.About button, section.Indues button {
+.main-award button,
+section.About button,
+section.Indues button,
+section.slider-sec button{
   background: linear-gradient(135.45deg, #F57F3D 18.79%, #D7392F 73%);
   color: white;
   padding: 15px 30px;
@@ -48,6 +51,9 @@ header button,
   outline: none;
   cursor: pointer;
   border: none;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .banner {
@@ -98,6 +104,7 @@ section.main-award.container ul {
   gap: 10px;
   align-items: unset;
 }
+
 .Indus .para {
   padding-top: 20px;
   max-width: 733px;
@@ -107,7 +114,9 @@ section.main-award.container ul {
   font-weight: 400;
   line-height: 30px;
 }
-.main-back h2,.Indus h2 {
+
+.main-back h2,
+.Indus h2 {
   color: white;
   font-family: Raleway;
   font-size: 22px;
@@ -133,7 +142,7 @@ section.main-award.container ul {
 }
 
 .main-back:hover {
-  border: 1px solid #aeaeae;  
+  border: 1px solid #aeaeae;
   background-color: black;
 }
 
@@ -167,18 +176,21 @@ section.main-award.container {
 
 
 }
+
 .main-award.container button {
- display: block;
- margin: 40px auto;
+  display: block;
+  margin: 40px auto;
 }
+
 section.Revenue ul {
 
   display: flex;
   justify-content: space-between;
 }
+
 section.Revenue {
-background: #1D1D1D;
-padding: 2% 0;
+  background: #1D1D1D;
+  padding: 2% 0;
 }
 
 .contd h2 {
@@ -188,73 +200,345 @@ padding: 2% 0;
   line-height: 62px;
   color: #df4d33;
 }
+
 .contd {
   border-left: 1px solid #757576;
 }
+
 .contd-in {
   padding: 20px;
 }
-.main-video video{
 
-  width:41%;
-  border-radius:15px;
-  object-fit:cover;
-  height:100%
+.main-video video {
+
+  width: 41%;
+  border-radius: 15px;
+  object-fit: cover;
+  height: 100%
 }
-.recall-right .para{
+
+.recall-right .para {
   text-align: left;
   padding-bottom: 20px;
 }
+
 section.About {
   padding: 4% 0;
 }
+
 .top-cont .para {
   max-width: 970px;
   margin: auto;
 }
+
 .top-cont {
   padding-bottom: 3%;
 }
+
 section.Indues ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
 }
+
 section.Indues ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 0 0 3% 0;
 }
+
 .Indus {
   width: 28%;
 }
+
 section.Indues {
   background: #1D1D1D;
 }
+
 .Indus {
   background: #101010;
   border-radius: 12px;
   padding: 30px 30px 70px 21px;
   border: 1px solid transparent;
 }
+
 section.Indues {
   background: #1D1D1D;
   padding: 5% 0% 2% 0%;
 }
+
 section.Indues button {
   display: block;
   margin: auto;
 }
+
 .swiper {
   width: 100%;
   height: 100%;
 }
+
 button:hover {
   background: linear-gradient(135.45deg, #D7392F 18.79%, #F57F3D 73%);
 }
+
 .Indus:hover {
-    background: rgb(58 58 58/ var(--tw-bg-opacity));
-    border: 1px solid #aeaeae;
+  background: rgb(58 58 58/ var(--tw-bg-opacity));
+  border: 1px solid #aeaeae;
+}
+
+.right-case .para {
+  text-align: left;
+  max-width: 530px;
+  font-size: 22px;
+  padding-bottom: 40px;
+}
+
+.right-case h2 {
+  font-size: 48px;
+  color: white;
+  padding-bottom: 20px;
+  font-family: 'raleway';
+}
+
+.right-case {
+  background: #1d1d1d;
+  padding: 5% 0% 5% 4%;
+  border-radius: 12px;
+}
+
+.right-case {
+  width: 45%;
+}
+
+.left-case {
+  width: 55%;
+}
+
+section.slider-sec .hero {
+  gap: 40px;
+}
+
+section.Boxslider {
+
+  padding: 10% 0 4% 0;
+}
+
+.swiper-slide-next {
+  opacity: 100% !important;
+  border: 1px solid #FAFAFA;
+  box-shadow: 0px 5px 17px 0px #0000001F;
+  background: #1D1D1D;
+  padding: 10px 20px;
+  border-radius: 15px;
+
+
+}
+
+.swiper-slide {
+  opacity: 30%;
+  padding: 10px 20px;
+}
+
+.Testimain .para {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  max-width: 397px;
+}
+
+.Testimain h2 {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  color: white;
+  padding: 20px 0 15px 0;
+}
+
+img.Forpad {
+  padding-bottom: 20px;
+}
+
+.Testimain {
+  padding: 30px 0;
+}
+
+.Testimain h3 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+}
+
+.case-studies .swiper-slide {
+
+  opacity: 100% !important;
+}
+
+.case-studies .swiper-slide-next {
+  opacity: 100% !important;
+  border: unset;
+  box-shadow: unset;
+  background: unset;
+  padding: unset;
+  border-radius: unset;
+}
+
+.Letter-top-main {
+  width: 33%;
+  box-shadow: 0px 1px 25px 0px #FFFFFF1F;
+}
+
+.letter-right h2 {
+  color: white;
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 36px;
+  padding-bottom: 10px;
+}
+
+.letter-right .para {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.letter-left img {
+  width: 100%;
+  display: block;
+}
+
+section.Letter-cont {
+  background: #1D1D1D;
+}
+
+section.Letter-cont .hero {
+  gap: 30px;
+}
+
+.letter-right {
+  background: black;
+  padding: 20px 0px 20px 24px;
+}
+
+.letter-right button {
+  opacity: 0;
+}
+
+.Letter-top-main:hover .letter-right button {
+  opacity: 1;
+
+}
+
+.Letter-top-main:hover .letter-right {
+
+  background-color: #2C2C2C;
+}
+
+.letter-right button {
+
+  font-family: Lato;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: #df4d33;
+  background-color: unset;
+  border: none;
+
+}
+
+.letter-right button:hover {
+  background: unset;
+}
+
+.Letter-top-main:hover {
+  box-shadow: unset;
+
+}
+
+.letter-btn {
+  padding: 30px 0;
+}
+
+.letter-btn button {
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: unset;
+  color: white;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  cursor: pointer;
+}
+.letter-btn button:hover{
+
+  background: unset !important;
+}
+
+/* logoslider */
+/* 
+section.new-slide .slide img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 70px;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+} */
+
+
+/* logoslider */
+
+
+.logo-carousel .slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-logo img {
+  width: 70%;
+}
+
+.item-logo.small img {
+  max-width: 160px;
+}
+
+.owl-carousel .item-logo {
+  margin-right: 10px;
+  /* Adjust margin between items */
+}
+
+.owl-carousel .item-logo img {
+  display: block;
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.owl-carousel .item-logo img {
+  width: 208px;
 }
