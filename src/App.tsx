@@ -2,12 +2,13 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Counter from "./components/Counter";
-// import Counter from "./components/counter_main";
 import Award from './components/Award';
 import About from './components/About';
 import Industries from './components/Industries';
-import Slider from './components/Slider';
-// import Award_card from './components/Award_card';
+import CaseSlider from './components/CaseSlider';
+import TestimonialsSlide from './components/TestimonialsSlide';
+import Letter from './components/Letter';
+import LogoSlide from './components/LogoSlide';
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
       <Counter/>
       <About/>
       <Industries />
-      <Slider/>
-
+      <CaseSlider />
+      <TestimonialsSlide />
+      <Letter />
+      <LogoSlide />
+      
     </>
   )
 }
