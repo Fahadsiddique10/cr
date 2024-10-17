@@ -20,9 +20,10 @@ function App() {
       <About/>
       <Industries />
       <CaseSlider />
+      <LogoSlide />
       <TestimonialsSlide />
       <Letter />
-      <LogoSlide />
+
       
     </>
   )

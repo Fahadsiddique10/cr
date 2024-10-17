@@ -38,7 +38,6 @@ export const Card = [
   },
 ]
 
-
 export const Custom = [
   {
 
@@ -128,8 +127,6 @@ export const Excel = [
   },
 ]
 
-
-
 export const StudySlider = [
   {
 
@@ -169,129 +166,7 @@ export const StudySlider = [
   },
 ]
 
-
-export const Testislider = [
-  {
-
-    icon: "/concept.svg",
-    title: "Matt Ruff - Lokl Market",
-    description:
-      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day.",
-      image:"/stars.svg",
-      Rating:"4.5 Rating",
-  },
-  {
-
-    icon: "/slidemid.svg",
-    title: "Rick Katz - Co Founder LTD",
-    description:
-      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
-    image:"/stars.svg",
-    Rating:"5.5 Rating",
-
-  },
-  {
-
-    icon: "/slideleft.svg",
-    title: "Nusrat Jahan - Us Technomatrix",
-    description:
-      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a....see more",
-      image:"/stars.svg",
-      Rating:"4.5 Rating",
-
-  },
-  {
-
-    icon: "/concept.svg",
-    title: "DaMatt Ruff - Lokl Market",
-    description:
-      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day. ",
-    image:"/stars.svg",
-    Rating:"5.5 Rating",
-
-  },
-  {
-
-    icon: "/slideleft.svg",
-    title: "Nusrat Jahan - Us Technomatrix",
-    description:
-      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a ....see more",
-      image:"/stars.svg",
-      Rating:"4.5 Rating",
-
-  },
-  {
-
-    icon: "/slidemid.svg",
-    title: "Rick Katz - Co Founder LTD",
-    description:
-      "One of the best freelancers on Upwork. Great communication, excellent attention to detail and highly skilled. Would definitely hire Faheem again without question.",
-    image:"/stars.svg",
-    Rating:"5.5 Rating",
-  },
-  {
-
-    icon: "/concept.svg",
-    title: "Matt Ruff - Lokl Market",
-    description:
-      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day.",
-      image:"/stars.svg",
-      Rating:"4.5 Rating",
-  },
-  {
-
-    icon: "/slidemid.svg",
-    title: "Rick Katz - Co Founder LTD",
-    description:
-      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
-    image:"/stars.svg",
-    Rating:"5.5 Rating",
-
-  },
-  {
-
-    icon: "/slideleft.svg",
-    title: "Nusrat Jahan - Us Technomatrix",
-    description:
-      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a....see more",
-      image:"/stars.svg",
-      Rating:"4.5 Rating",
-
-  },
- 
-]
-
-export const LetterBox = [
-  {
-
-    image: "/search.png",
-    title: "Search Engine Optimization (SEO)",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took "
-    ,
-
-  },
-  {
-
-    image: "/marketing.png",
-    title: "Digital Marketing",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ",
-
-
-  },
-  {
-
-    image: "/mobile.png",
-    title: "Mobile Application",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  ",
-
-
-  },
-]
-
-export const keyslider= [
+export const keyslider = [
   {
 
     image: "/1.svg",
@@ -327,5 +202,127 @@ export const keyslider= [
     image: "/7.svg",
 
   },
-  
+
 ]
+
+export const Testislider = [
+  {
+
+    icon: "/concept.svg",
+    title: "Matt Ruff - Lokl Market",
+    description:
+      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day.",
+    image: "/stars.svg",
+    Rating: "4.5 Rating",
+  },
+  {
+
+    icon: "/slidemid.svg",
+    title: "Rick Katz - Co Founder LTD",
+    description:
+      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
+    image: "/stars.svg",
+    Rating: "5.5 Rating",
+
+  },
+  {
+
+    icon: "/slideleft.svg",
+    title: "Nusrat Jahan - Us Technomatrix",
+    description:
+      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a....see more",
+    image: "/stars.svg",
+    Rating: "4.5 Rating",
+
+  },
+  {
+
+    icon: "/concept.svg",
+    title: "DaMatt Ruff - Lokl Market",
+    description:
+      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day. ",
+    image: "/stars.svg",
+    Rating: "5.5 Rating",
+
+  },
+  {
+
+    icon: "/slideleft.svg",
+    title: "Nusrat Jahan - Us Technomatrix",
+    description:
+      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a ....see more",
+    image: "/stars.svg",
+    Rating: "4.5 Rating",
+
+  },
+  {
+
+    icon: "/slidemid.svg",
+    title: "Rick Katz - Co Founder LTD",
+    description:
+      "One of the best freelancers on Upwork. Great communication, excellent attention to detail and highly skilled. Would definitely hire Faheem again without question.",
+    image: "/stars.svg",
+    Rating: "5.5 Rating",
+  },
+  {
+
+    icon: "/concept.svg",
+    title: "Matt Ruff - Lokl Market",
+    description:
+      "ConceptRecall have a smart, eager, and helpful team of developers. They are very proactive and highly communicative. We look forward to working with them again some day.",
+    image: "/stars.svg",
+    Rating: "4.5 Rating",
+  },
+  {
+
+    icon: "/slidemid.svg",
+    title: "Rick Katz - Co Founder LTD",
+    description:
+      "Healthcare is broken. Address the issue by crafting a superior virtual solution with our mobile app development company, whether it's a telehealth app or a web platform.",
+    image: "/stars.svg",
+    Rating: "5.5 Rating",
+
+  },
+  {
+
+    icon: "/slideleft.svg",
+    title: "Nusrat Jahan - Us Technomatrix",
+    description:
+      "I found ConceptRecall very quick and efficient. they did the project before time I thought it would be completed, I expected the project to be completed in a....see more",
+    image: "/stars.svg",
+    Rating: "4.5 Rating",
+
+  },
+
+]
+
+export const LetterBox = [
+  {
+
+    image: "/search.png",
+    title: "Search Engine Optimization (SEO)",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took "
+    ,
+
+  },
+  {
+
+    image: "/marketing.png",
+    title: "Digital Marketing",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took ",
+
+
+  },
+  {
+
+    image: "/mobile.png",
+    title: "Mobile Application",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took  ",
+
+
+  },
+]
+

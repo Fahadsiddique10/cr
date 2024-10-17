@@ -1,8 +1,7 @@
 interface LogoSlideMain_Props {
 
     image: string
-
-
+    
 }
 
 const LogoSlideMain = ({ image }: LogoSlideMain_Props) => {
@@ -19,6 +18,5 @@ const LogoSlideMain = ({ image }: LogoSlideMain_Props) => {
             </div>
         </div>
     )
-
 }
 export default LogoSlideMain
