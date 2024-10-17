@@ -1,11 +1,12 @@
 import { keyslider } from "../constants";
 import LogoSlideMain from "./LogoSlideMain";
+import Marquee from "react-fast-marquee";
 
 function  LogoSlide() {
     return (
+  
       <section className="new-slide">
-          <h2 className="main-head">Industries we've <span className="orange">excelled in</span></h2>
-          <p className="para top">Our services are tailor-made and we are always striving to surpass your wildest expectations!</p>
+         <Marquee>
           <ul className="hero">
             {/* <li>Hello</li> */}
             {keyslider.map((obj, index) => (
@@ -15,7 +16,8 @@ function  LogoSlide() {
               />
             ))}
           </ul>
-      </section>
+       </Marquee>
+     </section>
     );
   }
 export default LogoSlide;

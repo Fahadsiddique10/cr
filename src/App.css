@@ -43,7 +43,7 @@ header button,
 .main-award button,
 section.About button,
 section.Indues button,
-section.slider-sec button{
+section.slider-sec button {
   background: linear-gradient(135.45deg, #F57F3D 18.79%, #D7392F 73%);
   color: white;
   padding: 15px 30px;
@@ -232,7 +232,7 @@ section.About {
 }
 
 .top-cont {
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 section.Indues ul {
@@ -419,6 +419,7 @@ img.Forpad {
 
 section.Letter-cont {
   background: #1D1D1D;
+  padding: 5% 0;
 }
 
 section.Letter-cont .hero {
@@ -447,7 +448,7 @@ section.Letter-cont .hero {
 .letter-right button {
 
   font-family: Lato;
-  padding-top: 20px;
+  padding: 20px 0;
   font-size: 22px;
   font-weight: 700;
   line-height: 26.4px;
@@ -482,13 +483,14 @@ section.Letter-cont .hero {
   line-height: 21.6px;
   cursor: pointer;
 }
-.letter-btn button:hover{
+
+.letter-btn button:hover {
 
   background: unset !important;
 }
 
 /* logoslider */
-/* 
+
 section.new-slide .slide img {
   width: 100px;
   height: 100px;
@@ -507,19 +509,21 @@ section.new-slide .slide img {
 }
 
 @keyframes scroll {
-  0% {transform: translateX(0);}
-  100% {transform: translatex(-1000%)}
-} */
+  0% {
+    transform: translateX(0);
+  }
 
+  100% {
+    transform: translatex(-1000%)
+  }
+}
 
-/* logoslider */
-
-
-.logo-carousel .slick-track {
+*/ logoslider */ .logo-carousel .slick-track {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .item-logo img {
   width: 70%;
 }
@@ -541,4 +545,34 @@ section.new-slide .slide img {
 
 .owl-carousel .item-logo img {
   width: 208px;
+}
+
+.letter-btn {
+  padding: 4% 0% 0% 0%;
+}
+
+.letter-btn button:hover {
+  color: #df4d33;
+}
+
+section.new-slide {
+  background: #1D1D1D;
+  padding: 1% 0;
+}
+
+section.new-slide .slider {
+  margin: unset;
+}
+
+.item-logo img {
+  width: unset;
+  padding-right: 80px;
+}
+
+.case-studies {
+  padding: 5% 0;
+}
+.item-logo {
+  display: flex;
+  align-items: center;
 }
