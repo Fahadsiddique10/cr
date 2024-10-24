@@ -1,19 +1,13 @@
-// interface Footer_Props {
+interface Footer_Props {
 
-//     title:string
-//     description:string
-    
-//     }
-    
-//     const Footer = ({title,  description }: Footer_Props) => {
-//         return(
-//         <section className="footer">
-//           <div className="container">
+    description: string
 
-//           </div>
-//         </section>
-//         )
-    
-//     }
-//     export default Footer
-    
+}
+
+const Footer = ({ description }: Footer_Props) => {
+    return (
+      <li><a href="#">{description}</a></li>
+    )
+
+}
+export default Footer

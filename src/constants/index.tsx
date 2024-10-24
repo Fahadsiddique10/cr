@@ -326,3 +326,68 @@ export const LetterBox = [
   },
 ]
 
+export const Fotter = [
+  {
+
+    description:
+      "Home "
+    ,
+
+  },
+
+  {
+
+    description:
+      "About Us "
+    ,
+
+  },
+
+  {
+
+    description:
+      "Services "
+    ,
+
+  },
+
+  {
+
+    description:
+      "Our Projects"
+    ,
+
+  },
+
+  {
+
+    description:
+      "Careers"
+    ,
+  },
+
+  {
+
+    description:
+      "Contact Us "
+    ,
+
+  },
+  {
+
+    description:
+      " Industries "
+    ,
+
+
+  },
+  {
+
+    description:
+      " Feed "
+    ,
+
+
+  },
+]
+
