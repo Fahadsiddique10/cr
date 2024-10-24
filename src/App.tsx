@@ -9,6 +9,9 @@ import CaseSlider from './components/CaseSlider';
 import TestimonialsSlide from './components/TestimonialsSlide';
 import Letter from './components/Letter';
 import LogoSlide from './components/LogoSlide';
+import Contact from './components/Contact';
+import FooterColumn from './components/FooterColumn';
+
 
 function App() {
   return (
@@ -18,13 +21,14 @@ function App() {
       <Award/>
       <Counter/>
       <About/>
-      <Industries />
-      <CaseSlider />
-      <LogoSlide />
-      <TestimonialsSlide />
-      <Letter />
-
-      
+      <Industries/>
+      <CaseSlider/>
+      <LogoSlide/>
+      <TestimonialsSlide/>
+      <Letter/>
+      <Contact/>
+      <FooterColumn />
+ 
     </>
   )
 }

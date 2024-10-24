@@ -1,6 +1,5 @@
 import recall from './../assets/recall.png'
 import Button from './button'
-
 function About() {
   const submit = () => {
     return
