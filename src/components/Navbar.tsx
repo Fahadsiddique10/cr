@@ -1,25 +1,53 @@
-import logomain from './../assets/logomain.png'
-import Button from './button'
+import { useState } from 'react';
+import logomain from './../assets/logomain.png';
+import Button from './Button';
+import call from './../assets/call.svg';
+import whats from './../assets/whats.svg';
+
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
     const submit = () => {
-        return
-    }
+        return;
+    };
+
     return (
         <header>
             <div className="hero">
-                <img className='main-logo' src={logomain} alt="" />
-                <div className="main-hero">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Industries</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Feed</a></li>
-                    <Button label="Speak to an Expert" onClick={() => submit()} className="nav-btn"></Button>
-                </ul>
+                <div className="main-img-logo">
+                    <img className="main-logo" src={logomain} alt="Logo" />
+                </div>
+
+                {/* Hamburger Icon */}
+                <div className="hamburger-icon" onClick={toggleMenu}>
+                    <span className={isOpen ? 'line open' : 'line'}></span>
+                    <span className={isOpen ? 'line open' : 'line'}></span>
+                    <span className={isOpen ? 'line open' : 'line'}></span>
+                </div>
+
+                {/* Main Menu */}
+                <div className={`main-hero ${isOpen ? 'show' : ''}`}>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Feed</a></li>
+                        <Button label="Speak to an Expert" onClick={submit} className="nav-btn" />
+                    </ul>
+                </div>
+
+                <div className="calls-icons">
+                    <a href="#"><img src={call} alt="Call" /></a>
+                    <a href="#"><img src={whats} alt="WhatsApp" /></a>
                 </div>
             </div>
         </header>
-    )
-}
-export default Navbar
+    );
+};
+
+export default Navbar;

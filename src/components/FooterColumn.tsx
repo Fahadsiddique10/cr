@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import phone from "./../assets/phone.svg"
 import Email from "./../assets/message.svg"
 import location from "./../assets/location.svg"
-import Button from "./button";
+import Button from "./Button";
 import recall from "./../assets/logomain.png"
 
 function FooterColumn() {
@@ -59,6 +59,14 @@ function FooterColumn() {
             </div>
             <Button label="Send" onClick={() => submit()} className="Letter-btn"></Button>
           </div>
+        </ul>
+      </div>
+      <div className="foot-bottom hero">
+        <p className="para">© Copyrights 2024 All Rights Reserved.</p>
+        <ul className="foot">
+          <li>Terms & Conditions</li>
+          <li>Privacy & Policy</li>
+          <li>FAQS</li>
         </ul>
       </div>
     </section>

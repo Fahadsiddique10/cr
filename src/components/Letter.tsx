@@ -1,6 +1,6 @@
 import { LetterBox } from "../constants";
 import Lettermain from "./Lettermain";
-import Button from "./button";
+import Button from "./Button";
 
 function Letter() {
 

@@ -1,4 +1,4 @@
-import Button from "./button"; // Import the reusable button component
+import Button from "./Button"; // Import the reusable button component
 
 interface SlideItemProps {
   title: string;

@@ -1,5 +1,5 @@
 import recall from './../assets/recall.png'
-import Button from './button'
+import Button from './Button'
 function About() {
   const submit = () => {
     return
@@ -7,7 +7,7 @@ function About() {
     return (
     <section className="About container">
       <div className="top-cont">
-        <h2 className='main-head'><span className='orange'>About</span>Us</h2>
+        <h2 className='main-head'><span className='orange'>About </span>Us</h2>
         <p className='para'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
       </div>
       <div className="hero">
