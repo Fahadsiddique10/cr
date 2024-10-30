@@ -1,6 +1,6 @@
 import { Card } from "../constants";
 import Award_card from "./Award_card";
-import Button from './button'
+import Button from './Button'
 
 function Award() {
 

@@ -10,6 +10,7 @@ function Counter() {
           {Custom.map((obj, index) => (
             <CountMain
               key={index}
+              index={index}
               title={obj.title}
               description={obj.description}
             />

@@ -1,6 +1,6 @@
 import { Excel } from "../constants";
 import IndusMain from "./IndusMain";
-import Button from "./button";
+import Button from "./Button";
 
 function  Industries() {
   
