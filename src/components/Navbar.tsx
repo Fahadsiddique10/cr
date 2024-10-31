@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import logomain from './../assets/logomain.png';
+import conceptLogo from './../assets/logomain.png'; // Make sure this path is correct
 import Button from './Button';
 import call from './../assets/call.svg';
 import whats from './../assets/whats.svg';
@@ -29,8 +30,14 @@ const Navbar = () => {
                     <span className={isOpen ? 'line open' : 'line'}></span>
                 </div>
 
+                {/* Overlay */}
+                <div className={`overlay ${isOpen ? 'show' : ''}`} onClick={toggleMenu}></div>
+
                 {/* Main Menu */}
                 <div className={`main-hero ${isOpen ? 'show' : ''}`}>
+                    {/* ConceptRecall Logo */}
+                    <img src={conceptLogo} alt="ConceptRecall Logo" className="concept-logo" />
+                    
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Industries</a></li>
