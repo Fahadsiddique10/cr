@@ -16,7 +16,7 @@ export default () => {
             <div className="container">
                 <Swiper
                     modules={[Navigation]}
-                    spaceBetween={30}
+                    spaceBetween={10}
                     slidesPerView={3}
                     navigation
                     autoplay={true}

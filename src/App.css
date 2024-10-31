@@ -31,6 +31,31 @@ header {
   padding: 1% 3% 1% 10%;
 }
 
+.main-img-logo {
+  width: 45%;
+}
+
+.main-hero {
+  width: 45%;
+}
+
+.calls-icons a {
+  padding: 12px 16px 8px 16px;
+}
+
+.calls-icons a:hover {
+  background: #f57f3d;
+  padding: 12px 16px 8px 16px;
+  border-radius: 12px;
+}
+
+.calls-icons {
+  display: flex;
+  background: #1b1b1b;
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
 header ul li {
   font-family: Lato;
   font-size: 18px;
@@ -43,7 +68,8 @@ header button,
 .main-award button,
 section.About button,
 section.Indues button,
-section.slider-sec button {
+section.slider-sec button,
+section.Contact button {
   background: linear-gradient(135.45deg, #F57F3D 18.79%, #D7392F 73%);
   color: white;
   padding: 15px 30px;
@@ -60,7 +86,7 @@ section.slider-sec button {
   background-image: url(assets/2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 11% 0;
+  padding: 11% 3%;
 
 }
 
@@ -90,13 +116,15 @@ span.orange {
 header li a {
   color: #ffff;
 }
-
+.main-hero img {
+  display: none;
+}
 header li a:hover {
   color: #ec6a38;
 }
 
 img.main-logo {
-  width: 20%;
+  width: 35%;
 }
 
 section.main-award.container ul {
@@ -161,7 +189,7 @@ h2.main-head {
 }
 
 section.main-award.container {
-  padding-top: 6%;
+  padding: 6% 3% 3% 3%;
 }
 
 .para.top {
@@ -205,17 +233,22 @@ section.Revenue {
   border-left: 1px solid #757576;
 }
 
+.no-border {
+  border-left: none;
+  /* Remove the left border */
+}
+
 .contd-in {
   padding: 20px;
 }
 
-.main-video video {
+/* .main-video video {
 
   width: 41%;
   border-radius: 15px;
   object-fit: cover;
   height: 100%
-}
+} */
 
 .recall-right .para {
   text-align: left;
@@ -223,7 +256,7 @@ section.Revenue {
 }
 
 section.About {
-  padding: 4% 0;
+  padding: 4% 3%;
 }
 
 .top-cont .para {
@@ -266,7 +299,7 @@ section.Indues {
 
 section.Indues {
   background: #1D1D1D;
-  padding: 5% 0% 2% 0%;
+  padding: 5% 3% 2% 3%;
 }
 
 section.Indues button {
@@ -419,7 +452,7 @@ img.Forpad {
 
 section.Letter-cont {
   background: #1D1D1D;
-  padding: 5% 0;
+  padding: 5% 3%;
 }
 
 section.Letter-cont .hero {
@@ -558,6 +591,10 @@ section.new-slide .slide img {
 section.new-slide {
   background: #1D1D1D;
   padding: 1% 0;
+}
+
+section.slider-sec {
+  padding: 0 3%;
 }
 
 section.new-slide .slider {
@@ -700,6 +737,7 @@ textarea#message {
 
 section.Contact .hero {
   gap: 8%;
+  padding-bottom: 10%;
 }
 
 .right-form h2 {
@@ -742,9 +780,9 @@ label.custom-placeholder {
 
 section.Footer {
   background: rgba(29, 29, 29, 1);
-  padding: 4%;
-  margin-bottom: 30px;
-  border-bottom: 2px solid grey;
+  padding: 4% 0 0 0;
+
+
 }
 
 ul.foot-end li {
@@ -860,25 +898,1119 @@ ul.col-3 h3 {
   font-size: 1.25rem;
   font-weight: 800;
 }
+
 .icons img {
   filter: brightness(0) saturate(100%) invert(71%) sepia(0%) saturate(2934%) hue-rotate(262deg) brightness(93%) contrast(81%);
 }
+
 .icons {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 600;
   line-height: 20.36px;
 }
-.foot-top{
+
+.foot-top {
   padding-bottom: 3%;
   border-bottom: 2px solid grey;
 }
+
 .foot-top img {
   display: block;
   margin: auto;
   width: 20%;
 }
+
 .foot-main {
   padding-top: 6%;
 }
+
+.btn button {
+  margin: auto;
+  display: block;
+}
+
+.foot-bottom {
+  border-top: 2px solid grey;
+  padding: 2% 14% 2% 14%;
+}
+
+.foot-main {
+  padding: 6% 0 3% 0;
+}
+
+ul.foot li {
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 36px;
+  color: white;
+  text-decoration: underline;
+}
+
+ul.foot li:hover {
+  text-decoration: none;
+  color: #d7392f;
+}
+
+ul.col-1 li a:hover {
+  color: #eb6838;
+}
+
+ul.col-2 li a:hover {
+  color: #eb6838;
+}
+
 /* footer */
+
+
+
+
+/* hamburger */
+
+/* Navbar.css */
+
+/* Hamburger icon */
+.hamburger-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.hamburger-icon .line {
+  height: 3px;
+  background-color: #fff;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.line.open:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.line.open:nth-child(2) {
+  opacity: 0;
+}
+
+.line.open:nth-child(3) {
+  transform: translateY(-13px) rotate(-38deg);
+}
+
+/* Main menu */
+.main-hero {
+  display: flex;
+}
+
+.main-hero ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main-hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 230px;
+    padding: 20px 10px;
+    /* Add padding for the logo */
+    border-radius: 8px;
+    z-index: 2;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-hero.show {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black */
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+  }
+
+  .overlay.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .concept-logo {
+    width: 70%;
+    /* Adjust the logo size */
+    margin-bottom: 20px;
+    /* Spacing below the logo */
+  }
+
+  .main-hero ul {
+    flex-direction: column;
+    align-items: unset;
+    padding: 30px;
+  }
+
+  .calls-icons {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: flex;
+  }
+
+  h1 {
+
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 39.92px
+  }
+
+  .banner .para {
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 20px;
+  }
+
+  img.main-logo {
+    width: 50%;
+  }
+
+  .main-img-logo {
+    width: unset;
+  }
+
+  header {
+    padding: 1% 3% 1% 3%;
+  }
+
+  .banner {
+    background-size: 100% 100%;
+  }
+
+  section.main-award h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.18px;
+  }
+
+  section.main-award.container ul {
+    display: flex;
+    gap: 10px;
+    align-items: unset;
+    flex-direction: column;
+  }
+
+  .contd {
+    border: none;
+    flex: 0 0 50%;
+  }
+
+  section.Revenue ul {
+    flex-wrap: wrap;
+  }
+
+  section.About.container .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recall-left img {
+    width: 100%;
+  }
+
+  section.About .top-cont .para {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .recall-right .para {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 20px;
+  }
+
+  h2.main-head {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.22px;
+    padding-bottom: 15px;
+  }
+
+  header button,
+  .main-award button,
+  section.About button,
+  section.Indues button,
+  section.slider-sec button,
+  section.Contact button {
+    padding: 14px 10px;
+    font-size: 10px;
+  }
+
+  section.Indues ul {
+
+    flex-direction: column;
+  }
+
+  .Indus {
+    width: unset;
+
+  }
+
+  section.slider-sec .hero {
+
+    flex-direction: column-reverse;
+  }
+
+  .right-case {
+    width: unset;
+  }
+
+  .left-case {
+    width: unset;
+  }
+
+  .left-case img {
+    width: 100%;
+  }
+
+  .Letter-top-main {
+    width: unset;
+  }
+
+  section.Letter-cont .hero {
+    flex-direction: column;
+  }
+
+  section.Contact .hero {
+
+    flex-direction: column;
+  }
+
+  .left-form {
+    width: unset;
+  }
+
+  .right-form {
+    width: unset;
+    padding-top: 20%;
+  }
+
+  .contd-in h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.22px;
+  }
+
+  .relative {
+    margin-bottom: 80px;
+    margin-top: unset;
+  }
+
+  .contd-in .para {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: unset;
+    line-height: 20px;
+  }
+
+  .main-back img {
+    width: 22%;
+  }
+
+  .Indus .para {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 5px;
+  }
+
+  .Indus {
+    padding: 10px 30px 30px 21px;
+
+  }
+
+  .Indus img {
+    width: 20%;
+  }
+
+  .main-back .para {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .main-back {
+
+    padding: 30px 30px 40px 30px;
+  }
+
+  .right-case .para {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 20px;
+  }
+
+  .right-case h2 {
+    font-size: 30px;
+    padding-bottom: 12px;
+  }
+
+  .item-logo img {
+    width: 70%;
+  }
+
+  .item-logo img {
+    padding-right: 20px;
+  }
+
+  .swiper-slide-next {
+    opacity: unset;
+    border: unset;
+    box-shadow: unset;
+    background: unset;
+    padding: unset;
+    border-radius: unset;
+  }
+
+  section.new-slide .swiper-slide.swiper-slide-active {
+    opacity: 100% !important;
+    border: 1px solid #FAFAFA;
+    box-shadow: 0px 5px 17px 0px #0000001F;
+    background: #1D1D1D;
+    padding: unset;
+    border-radius: 15px;
+  }
+
+  img.Forpad {
+    width: 20%;
+  }
+
+  .Testimain .para {
+    font-family: Lato;
+    font-size: 14px;
+  }
+
+  .Testimain h2 {
+
+    padding: 10px 0 15px 0;
+  }
+
+  p.para.top {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px auto 16px;
+  }
+
+  .letter-right {
+    padding: 20px 12px 0px 18px;
+  }
+
+  .letter-right .para {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .letter-right h2 {
+
+    font-size: 16px;
+  }
+
+  .letter-right button {
+    padding: 12px 0 20px;
+    font-size: 16px;
+  }
+
+  .grid {
+    display: unset;
+
+  }
+
+
+  section.Contact .hero {
+    align-items: unset;
+    flex-direction: column;
+  }
+
+  .right-form .para {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 18px;
+  }
+
+  .right-form h2 {
+    font-size: 26px;
+    line-height: 22.26px;
+  }
+
+  .social {
+    width: 60%;
+  }
+
+  .social-icons {
+    gap: 0;
+  }
+
+  .foot-main.flex {
+    flex-wrap: wrap;
+    padding: 6% 3%;
+  }
+
+  ul.col-1 {
+    width: 40%;
+  }
+
+  ul.col-2 {
+    width: 60%;
+  }
+
+  ul.col-3 {
+    width: unset;
+    padding-top: 30px;
+  }
+
+  ul.col-1 h3,
+  ul.col-2 h3,
+  ul.col-3 h3 {
+    font-size: 16px;
+  }
+
+  section.Footer ul li {
+    margin-top: 6px;
+  }
+
+  section.Footer ul li a {
+    font-size: 15px;
+  }
+
+  .email-box {
+    width: 90%;
+  }
+
+  .form input#email {
+    padding: 13.5px 6px 13.5px 11px;
+    font-size: 12px;
+  }
+
+  ul.col-3 .para {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .foot-top img {
+    width: 55%;
+  }
+
+  ul.foot li {
+    font-family: Lato;
+    font-size: 14px;
+  }
+
+  .foot-bottom.hero {
+    flex-direction: column-reverse;
+  }
+
+  .foot-bottom {
+
+    padding: unset;
+
+  }
+
+  .foot-bottom .para {
+    font-size: 16px;
+  }
+
+  .top-head h2 {
+    font-size: 34px;
+  }
+  .main-hero img {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* hamburger */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .banner {
+    background-size: 100% 100%;
+    height: 78vh;
+    display: flex;
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48.92px;
+  }
+
+  .banner .para {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .main-hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 49%;
+    padding: 20px 10px;
+    border-radius: 8px;
+    z-index: 2;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-hero ul {
+    gap: 30px;
+  }
+
+  .main-hero.show {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+  }
+
+  .overlay.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .concept-logo {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .main-hero ul {
+    flex-direction: column;
+    align-items: unset;
+    padding: 30px;
+  }
+
+  /* Hamburger icon styles */
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 3;
+    /* position: absolute; */
+    /* top: 20px; */
+    right: 20px;
+    height: unset;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff !important;
+    margin: 4px 0;
+    transition: 0.3s;
+  }
+
+  .calls-icons {
+
+    display: none;
+  }
+
+  header {
+    background: black;
+    padding: 2% 3% 2% 3%;
+  }
+
+  img.main-logo {
+    width: 70%;
+  }
+
+  .Cards {
+    WIDTH: 49%;
+  }
+
+  section.main-award.container ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: unset;
+  }
+
+  h2.main-head {
+    font-size: 25px;
+  }
+
+  .para.top {
+
+    margin: 10px auto 30px;
+  }
+
+  .contd h2 {
+
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .recall-right .para {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .recall-right {
+    width: 50%;
+  }
+
+  .recall-left img {
+    width: 100%;
+  }
+
+  .recall-left {
+    width: 50%;
+  }
+
+  section.About .hero {
+    align-items: unset;
+  }
+
+  .Indus {
+    width: 41%;
+  }
+
+  .case-studies .hero {
+    flex-direction: column-reverse;
+  }
+
+  .right-case {
+    width: unset;
+  }
+
+  .left-case {
+    width: unset;
+  }
+
+  .letter-right .para {
+
+    font-size: 15px;
+    line-height: 26px;
+
+  }
+
+  .letter-right h2 {
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  section.Letter-cont .hero {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+
+  .Letter-top-main {
+    width: 47%;
+  }
+
+  .right-form .para {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .right-form h2 {
+    font-size: 32px;
+
+  }
+
+  .right-form .para {
+
+    padding-top: 18px;
+  }
+
+  .btn {
+    padding-top: 8%;
+  }
+
+  input#firstName {
+
+    padding: 24px 0px 0px 0px;
+  }
+
+  .contact-text-input .custom-placeholder {
+    font-size: 14px;
+  }
+  ul.col-1 {
+    width: 40%;
+}
+ul.col-2 {
+  width: 40%;
+}
+ul.col-3 {
+  width: 100%;
+  padding-top: 50px;
+}
+.foot-main.flex.container {
+  flex-wrap: wrap;
+  padding: 5%;
+}
+.email-box {
+ width: 100%;
+}
+.main-hero img {
+  display: block;
+  width: 100%;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+
+  h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48.92px;
+  }
+
+  .banner .para {
+    font-size: 21px;
+    line-height: 32px;
+  }
+
+  .main-hero {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    width: 49%;
+    padding: 20px 10px;
+    border-radius: 8px;
+    z-index: 2;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-hero ul {
+    gap: 30px;
+  }
+
+  .main-hero.show {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+  }
+
+  .overlay.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .concept-logo {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .main-hero ul {
+    flex-direction: column;
+    align-items: unset;
+    padding: 30px;
+  }
+
+  /* Hamburger icon styles */
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 3;
+    /* position: absolute; */
+    /* top: 20px; */
+    right: 20px;
+    height: unset;
+  }
+
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff !important;
+    margin: 4px 0;
+    transition: 0.3s;
+  }
+
+  .calls-icons {
+
+    display: none;
+  }
+
+  header {
+    background: black;
+    padding: 2% 3% 2% 3%;
+  }
+
+  img.main-logo {
+    width: 70%;
+  }
+
+  .Cards {
+    WIDTH: 49%;
+  }
+
+  section.main-award.container ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: unset;
+  }
+
+  h2.main-head {
+    font-size: 25px;
+  }
+
+  .para.top {
+
+    margin: 10px auto 30px;
+  }
+
+  .contd h2 {
+
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .recall-right .para {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .recall-right {
+    width: 50%;
+  }
+
+  .recall-left img {
+    width: 100%;
+  }
+
+  .recall-left {
+    width: 50%;
+  }
+
+  section.About .hero {
+    align-items: unset;
+  }
+
+  .Indus {
+    width: 41%;
+  }
+
+  .case-studies .hero {
+    flex-direction: column-reverse;
+  }
+
+  .right-case {
+    width: unset;
+  }
+
+  .left-case {
+    width: unset;
+  }
+
+  .letter-right .para {
+
+    font-size: 15px;
+    line-height: 26px;
+
+  }
+
+  .letter-right h2 {
+    font-size: 16px;
+    line-height: 36px;
+  }
+
+  section.Letter-cont .hero {
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+
+  .Letter-top-main {
+    width: 47%;
+  }
+
+  .right-form .para {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .right-form h2 {
+    font-size: 32px;
+
+  }
+
+  .right-form .para {
+
+    padding-top: 18px;
+  }
+
+  .btn {
+    padding-top: 8%;
+  }
+
+  input#firstName {
+
+    padding: 24px 0px 0px 0px;
+  }
+
+  .contact-text-input .custom-placeholder {
+    font-size: 14px;
+  }
+  ul.col-1 {
+    width: 40%;
+}
+ul.col-2 {
+  width: 40%;
+}
+ul.col-3 {
+  width: 100%;
+  padding-top: 50px;
+}
+.foot-main.flex.container {
+  flex-wrap: wrap;
+  padding: 5%;
+}
+.email-box {
+ width: 100%;
+}
+.main-hero img {
+  display: block;
+  width: 100%;
+}
+
+}
+
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+
+
+  header ul li {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.6px;
+}
+header button, .main-award button, section.About button, section.Indues button, section.slider-sec button, section.Contact button {
+ 
+  padding: 15px 30px;
+  font-size: 16px;
+}
+header {
+  padding: 2% 3%;
+}
+
+.main-hero {
+  width: 55%;
+}
+.main-hero ul {
+
+  gap: unset;
+}
+.calls-icons {
+  padding: 5px 12px;
+
+}
+h1 {
+  font-size: 56px;
+  line-height: 82.7px;
+}
+
+.banner .para {
+  font-size: 23px;
+  line-height: 32px;
+}
+section.main-award.container .para.top {
+
+  font-size: 20px;
+  
+}
+section.Revenue {
+  background: #1D1D1D;
+  padding: 2% 8%;
+}
+.recall-left img {
+  width: 100%;
+}
+.recall-left {
+  width: 50%;
+}
+.recall-right {
+  width: 50%;
+}
+.container {
+  max-width: 1370px;
+  margin: auto;
+  padding: 0 3%;
+}
+section.main-award .Cards.container {
+  padding: unset;
+}
+.letter-right h2 {
+
+  font-size: 20px;
+}
+.item-logo img {
+  width: 100%;
+  padding-right: 80px;
+}
+.foot-main {
+  padding: 4% 8%;
+}
+section.Footer {
+  padding: unset;
+}
+.foot-top {
+  padding: 2% 0;
+}
+.foot-bottom {
+
+  padding: 2% 8% 2% 8%;
+}
+}
