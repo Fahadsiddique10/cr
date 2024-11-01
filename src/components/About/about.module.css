@@ -1,0 +1,138 @@
+.container {
+    max-width: 1370px;
+    margin: auto;
+}
+.About {
+    padding: 4% 3%;
+}
+.topCont {
+    padding-bottom: 5%;
+}
+.mainHead {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46.96px;
+    text-align: center;
+    color: white;
+}
+.orange {
+    color: #df4d33;
+}
+.topCont .para {
+    max-width: 970px;
+    margin: auto;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recallRight .para {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.hero button {
+    background: linear-gradient(135.45deg, #F57F3D 18.79%, #D7392F 73%);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.para {
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #ADADAD;
+  }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .mainHead {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 35.22px;
+        padding-bottom: 15px;
+    }
+
+    .topCont .para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    
+    .hero {
+        flex-direction: column;
+    }
+
+    .recallLeft img {
+        width: 100%;
+    }
+
+    .recallRight .para {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 20px 0;
+        line-height: 20px;
+    }
+
+    .hero button {
+        padding: 14px 10px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .mainHead {
+        font-size: 25px;
+    }
+
+    .recallRight .para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .recallLeft {
+        width: 50%;
+    }
+    .recallRight {
+        width: 50%;
+    }
+    .hero {
+        align-items: unset;
+    }
+    .recallLeft img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .mainHead {
+        font-size: 25px;
+    }
+
+    .recallRight .para {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .recallLeft {
+        width: 50%;
+    }
+    .recallRight {
+        width: 50%;
+    }
+    .hero {
+        align-items: unset;
+    }
+    .recallLeft img {
+        width: 100%;
+    }
+}

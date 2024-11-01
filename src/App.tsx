@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
+import Banner from "./components/Banner"
 import Counter from "./components/Counter";
 import Award from './components/Award';
 import About from './components/About';

@@ -1002,8 +1002,9 @@ ul.col-2 li a:hover {
 /* Main menu */
 .main-hero {
   display: flex;
+  align-items: center;
+  gap: 20px;
 }
-
 .main-hero ul {
   display: flex;
   align-items: center;
@@ -1011,6 +1012,9 @@ ul.col-2 li a:hover {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .Testimain {
+    padding: unset;
+}
   .main-hero {
     position: fixed;
     top: 0;
@@ -1031,6 +1035,7 @@ ul.col-2 li a:hover {
 
   .main-hero.show {
     transform: translateX(0);
+    align-items: flex-start;
   }
 
   .overlay {
@@ -1062,7 +1067,7 @@ ul.col-2 li a:hover {
   .main-hero ul {
     flex-direction: column;
     align-items: unset;
-    padding: 30px;
+    padding: unset;
   }
 
   .calls-icons {
@@ -1486,9 +1491,7 @@ ul.col-2 li a:hover {
     align-items: flex-start;
   }
 
-  .main-hero ul {
-    gap: 30px;
-  }
+
 
   .main-hero.show {
     transform: translateX(0);
@@ -1518,11 +1521,12 @@ ul.col-2 li a:hover {
   }
 
   .main-hero ul {
+    gap: 30px;
+    padding: unset;
     flex-direction: column;
     align-items: unset;
-    padding: 30px;
+    padding: unset;
   }
-
   /* Hamburger icon styles */
   .hamburger-icon {
     display: flex;
@@ -1534,7 +1538,9 @@ ul.col-2 li a:hover {
     right: 20px;
     height: unset;
   }
-
+  .Testimain {
+    padding: 10px 10px;
+}
   .line {
     width: 30px;
     height: 3px;
@@ -1723,6 +1729,7 @@ ul.col-3 {
 
   .main-hero ul {
     gap: 30px;
+    padding: unset;
   }
 
   .main-hero.show {

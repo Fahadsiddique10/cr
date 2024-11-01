@@ -391,3 +391,46 @@ export const Fotter = [
   },
 ]
 
+
+export const Navbarin = [
+  {
+
+    description:
+      "Home "
+    ,
+
+  },
+
+  {
+
+    description:
+      "Industries "
+    ,
+
+  },
+
+  {
+
+    description:
+      "Services "
+    ,
+
+  },
+
+  {
+
+    description:
+      "Case Studies"
+    ,
+
+  },
+
+  {
+
+    description:
+      "Feed"
+    ,
+  },
+]
+
+

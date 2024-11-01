@@ -1,0 +1,377 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .container {
+    max-width: 1370px;
+    margin: auto;
+  }
+
+  .para {
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #ADADAD;
+  }
+  
+.right-form {
+    width: 50%;
+  }
+  
+  .contact-text-input .custom-placeholder {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    font-size: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(116 114 114 / var(--tw-text-opacity));
+    transition-property: all;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+  }
+  
+  .relative {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .contact-text-input {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  /* .contact-text-input input {
+    display: block;
+    width: 100%;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+    font-size: .875rem;
+    font-weight: 600;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+    background-color: transparent;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(29 29 29 / var(--tw-border-opacity));
+  } */
+  
+  .unique-text-input .input.underline {
+    border-radius: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: .5rem;
+    text-decoration-line: none;
+  }
+  
+  input#firstName {
+    position: absolute;
+    border: none;
+    background: none;
+    padding: 30px 30px 10px 0px;
+    border-bottom: 4px solid #1D1D1D;
+    color: white;
+    width: 90%;
+  }
+  
+  :focus-visible {
+    outline: unset;
+  }
+  
+  section.Contact {
+    padding: 5%;
+  }
+  
+  .right-form .para {
+    text-align: left;
+    padding-top: 50px;
+  }
+  
+  textarea#message {
+    RESIZE: none;
+    position: absolute;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 40px 20px 4px 0px;
+    color: white;
+    border-bottom: 4px solid #1d1d1d;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+  
+  .left-form {
+    width: 50%;
+  }
+  
+  .tex-main {
+    margin-top: 80px;
+  }
+  
+  section.Contact .hero {
+    gap: 8%;
+    padding-bottom: 10%;
+  }
+  
+  .right-form h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42.26px;
+    color: white;
+  }
+  
+  label.custom-placeholder {
+    color: rgb(116 114 114);
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 30px;
+    padding-top: 4%;
+  }
+  
+  .social {
+    width: 80%;
+  }
+  
+  .social-icons a:hover .social {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(98%) saturate(1151%) hue-rotate(340deg) brightness(90%) contrast(94%);
+  }
+  
+  .top-head h2 {
+    padding-bottom: 4%;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56.35px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Original CSS Code */
+  .Contact {
+    padding: 5%;
+  }
+  
+  .topHead h2 {
+    padding-bottom: 4%;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56.35px;
+    text-align: center;
+    color: white;
+  }
+  
+  .orange {
+    color: #df4d33;
+  }
+  
+  .hero {
+    gap: 8%;
+    padding-bottom: 10%;
+  }
+  
+  .container {
+    max-width: 1370px;
+    margin: auto;
+  }
+  
+  .leftForm, .rightForm {
+    width: 50%;
+  }
+  
+  .contactTextInput {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .customPlaceholder {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    font-family: 'Lato';
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: rgb(116, 114, 114);
+    transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
+  }
+  
+  .relative {
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .uniqueTextInput .inputUnderline {
+    border-radius: 0;
+    border: none;
+    border-bottom: 4px solid #1D1D1D;
+    background: none;
+    padding: 0.5rem;
+    color: white;
+  }
+  
+  input {
+    width: 90%;
+    padding: 28px 30px 10px 0;
+    border: none;
+    border-bottom: 4px solid #1D1D1D;
+    background: none;
+    color: white;
+  }
+  
+  .texMain {
+    margin-top: 80px;
+  }
+  
+  textarea {
+    resize: none;
+    width: 100%;
+    padding: 40px 20px 20px 0;
+    border: none;
+    border-bottom: 4px solid #1D1D1D;
+    color: white;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 30px;
+    padding-top: 4%;
+  }
+  
+  .social {
+    width: 80%;
+  }
+  
+  .socialIcons a:hover .social {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(98%) saturate(1151%) hue-rotate(340deg) brightness(90%) contrast(94%);
+  }
+  
+  .rightForm h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 42.26px;
+    color: white;
+  }
+  
+  .para {
+    text-align: left;
+    padding-top: 50px;
+    max-width: 500px;
+  }
+  button:hover {
+    background: linear-gradient(135.45deg, #D7392F 18.79%, #F57F3D 73%);
+  }
+  .btn {
+    margin-top: 2rem;
+    text-align: center;
+  }
+section.Contact button {
+  background: linear-gradient(135.45deg, #F57F3D 18.79%, #D7392F 73%);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .topHead h2 {
+      font-size: 34px;
+    }
+    .hero {
+      align-items: unset;
+      flex-direction: column;
+    }
+    .leftForm, .rightForm {
+      width: unset;
+    }
+    .rightForm {
+      padding-top: 20%;
+    }
+    .rightForm h2 {
+      font-size: 26px;
+      line-height: 22.26px;
+    }
+    .para {
+      font-size: 12px;
+      line-height: 20px;
+      padding-top: 18px;
+    }
+    .socialIcons {
+      gap: 0;
+    }
+    .social {
+      width: 60%;
+    }
+    button {
+      padding: 14px 10px;
+      font-size: 10px;
+    }
+    .grid {
+      display: unset;
+    }
+    .relative {
+      margin-bottom: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .rightForm h2 {
+      font-size: 32px;
+    }
+    .para {
+      padding-top: 18px;
+    }
+    input {
+      padding: 24px 0px 0px 0px;
+    }
+    .customPlaceholder {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1365px) {
+    .rightForm h2 {
+      font-size: 32px;
+    }
+    .para {
+      padding-top: 18px;
+    }
+    input {
+      padding: 24px 0px 0px 0px;
+    }
+    .customPlaceholder {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 1366px) and (max-width: 1600px) {
+    button {
+      padding: 15px 30px;
+      font-size: 16px;
+    }
+  }
+  

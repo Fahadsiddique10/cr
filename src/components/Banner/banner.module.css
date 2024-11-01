@@ -1,0 +1,100 @@
+.container {
+    max-width: 1370px;
+    margin: auto;
+}
+h1 {
+    font-family: Raleway;
+    font-size: 85px;
+    font-weight: 800;
+    line-height: 112.7px;
+    text-align: center;
+    color: white;
+}
+.para {
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #ADADAD;
+}
+.orange {
+    color: #df4d33;
+}
+.banner {
+    background-image: url(/src/assets/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 11% 3%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    h1 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 39.92px;
+    }
+    .para {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    .banner {
+        background-size: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+        background-size: 100% 100%;
+        height: 78vh;
+        display: flex;
+    }
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 48.92px;
+    }
+    .para {
+        font-size: 21px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+
+    .banner {
+        background-size: 100% 100%;
+        height: 78vh;
+        display: flex;
+    }
+    h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 48.92px;
+    }
+    .para {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+
+
+    h1 {
+        font-size: 56px;
+        line-height: 82.7px;
+    }
+    .para {
+        font-size: 23px;
+        line-height: 32px;
+    }
+    .container {
+        max-width: 1370px;
+        margin: auto;
+        padding: 0 3%;
+    }
+
+}
